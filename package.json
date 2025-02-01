@@ -1,0 +1,40 @@
+{
+  "name": "iris-webservice",
+  "version": "1.0.0",
+  "description": "Emergency alert system using Twilio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Warfarian/iris-webservice.git"
+  },
+  "keywords": [
+    "emergency",
+    "alerts",
+    "twilio",
+    "sms"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.4",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "twilio": "^4.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Warfarian/iris-webservice/issues"
+  },
+  "homepage": "https://github.com/Warfarian/iris-webservice#readme"
+}
